@@ -1,12 +1,13 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
-import Exercicio01 from './src/components/Exercicio01';
+import Exercicio02 from './src/components/Exercicio02';
+
 
 export default function App() {
   return (
     <View style={styles.container}>
       
-    <Exercicio01 nome ="Jayme" />
+    <Exercicio02></Exercicio02>
 
     </View>
   );
