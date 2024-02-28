@@ -3,6 +3,7 @@ import { StyleSheet, Text, View } from 'react-native';
 
 import Exercicio02 from './src/components/Exercicio02';
 import Exercicio01 from './src/components/Exercicio01';
+import Exercicio03 from './src/components/Exercicio03';
 
 
 
@@ -13,7 +14,7 @@ export default function App() {
     <View style={styles.container}>
       
     
-    <Exercicio02/>
+    <Exercicio03/>
 
     </View>
   )
